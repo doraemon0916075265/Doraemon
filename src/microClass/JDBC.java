@@ -6,5 +6,5 @@ public class JDBC {
 	private static final String USERNAME = "sa";
 	private static final String PASSWORD = "sa123456";
 
-	private static final String SELECT = "Select * from";
+	private static final String SELECT = "Select * from donation";
 }
