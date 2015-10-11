@@ -1,4 +1,4 @@
-package Exam;
+package microClass;
 
 import java.util.Arrays;
 
@@ -9,12 +9,13 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		GlobalValue USE = new GlobalValue();
 
-		int[] numbers = new int[10];
+		int[] numbers = new int[15];
 		int numLen = numbers.length;
+		int randomSize = 100;
 
 		System.out.println("亂數產生的陣列：");
 		for (int i = 0; i < numLen; i++) {
-			numbers[i] = (int) (Math.random() * 100);
+			numbers[i] = (int) (Math.random() * randomSize);
 			System.out.print(numbers[i] + " ");
 		}
 
@@ -36,7 +37,7 @@ public class BubbleSort {
 		USE.Demarcation();// 1 end
 		System.out.println("亂數產生的陣列：");
 		for (int i = 0; i < numLen; i++) {
-			numbers[i] = (int) (Math.random() * 100);
+			numbers[i] = (int) (Math.random() * randomSize);
 			System.out.print(numbers[i] + " ");
 		}
 		System.out.println("\n");
@@ -55,7 +56,7 @@ public class BubbleSort {
 		USE.Demarcation();// 2 end
 		System.out.println("亂數產生的陣列：");
 		for (int i = 0; i < numLen; i++) {
-			numbers[i] = (int) (Math.random() * 100);
+			numbers[i] = (int) (Math.random() * randomSize);
 			System.out.print(numbers[i] + " ");
 		}
 		System.out.println("\n");
@@ -68,9 +69,6 @@ public class BubbleSort {
 				temp = maxNum;
 			}
 
-			// if (numbers[i + 1] > numbers[i]) {
-			// System.out.print(maxNum + " ");
-			// }
 		}
 		System.out.println(temp);
 
