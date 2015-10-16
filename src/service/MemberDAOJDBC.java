@@ -19,6 +19,7 @@ public class MemberDAOJDBC implements MemberDAO {
 
 	public MemberDAOJDBC() {
 		try {
+			// 新版作法
 			Context ctx = new InitialContext();
 			this.dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
 		} catch (NamingException e) {

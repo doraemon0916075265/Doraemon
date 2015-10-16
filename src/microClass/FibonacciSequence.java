@@ -1,6 +1,6 @@
 package microClass;
 
-public class Fibonacci {
+public class FibonacciSequence {
 
 	public static void main(String[] args) {
 		int fibonacciCount = 20;
