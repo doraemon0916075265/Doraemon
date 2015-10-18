@@ -14,10 +14,6 @@ public class MapHandle {
 		left.put("b", 2);
 		left.put("c", 3);
 
-		// left.put("g", 4);
-		// left.put("i", 5);
-		// left.put("d", 6);
-
 		right = new HashMap<String, Integer>();
 		right.put("b", 2);
 		right.put("c", 4);

@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+* {
+	font-family: "標楷體";
+}
+
+table, td {
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table tr {
+	line-height: 2em;
+}
+
+table tbody td:nth-child(1) {
+	text-align: right;
+}
+
+table tbody td:nth-child(2) input[type="text"] {
+	width: 300px;
+}
+
+table tbody tr input[type="submit"] {
+	width: 80px;
+}

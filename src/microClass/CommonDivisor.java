@@ -16,8 +16,7 @@ public class CommonDivisor {
 			numbers[i] = (int) (Math.random() * randomSize) + 2;
 			System.out.print(numbers[i] + " ");
 		}
-		System.out.println();
-		USE.Demarcation();
+		USE.Demarcation(1);
 
 		int temp = numbers[0];
 		for (int i = 0; i < numLen; i++) {

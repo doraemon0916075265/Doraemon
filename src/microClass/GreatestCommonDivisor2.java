@@ -16,8 +16,7 @@ public class GreatestCommonDivisor2 {
 			numbers[i] = (int) (Math.random() * randomSize) + 50;
 			System.out.print(numbers[i] + " ");
 		}
-		System.out.println();
-		USE.Demarcation();
+		USE.Demarcation(1);
 
 		int temp = numbers[0];
 		for (int i = 0; i < numLen; i++) {
@@ -28,7 +27,7 @@ public class GreatestCommonDivisor2 {
 			System.out.print(numbers[i] + "：");
 			for (int j = 1; j <= temp; j++) {
 				if (numbers[i] % j == 0) {
-					
+
 					System.out.print(j + " ");
 				}
 			}

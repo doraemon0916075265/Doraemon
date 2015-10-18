@@ -15,8 +15,7 @@ public class GreatestCommonDivisor {
 			numbers[i] = (int) (Math.random() * randomSize) + 2;
 			System.out.print(numbers[i] + " ");
 		}
-		System.out.println();
-		USE.Demarcation();
+		USE.Demarcation(1);
 		System.out.println("最大公因數：" + GCD(numbers[0], numbers[1]));
 		System.out.println();
 		System.out.println("最小公倍數：" + LCM(numbers[0], numbers[1]));

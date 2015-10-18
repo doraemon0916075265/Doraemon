@@ -14,8 +14,7 @@ public class StringSpilit {
 		for (String str1bag : str1Array2) {
 			System.out.print(str1bag + "|");
 		}
-		System.out.println();
-		use.Demarcation();
+		use.Demarcation(1);
 		String[] str1Array1 = str1.split("\\s+");
 		int str1ArrayAmount = str1Array1.length;
 

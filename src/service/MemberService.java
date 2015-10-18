@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import model.MemberBean;
 import modeldao.MemberDAO;
+import modeljdbcdao.MemberDAOJDBC;
 
 public class MemberService {
 	private MemberDAO memberDAO = new MemberDAOJDBC();
