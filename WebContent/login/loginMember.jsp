@@ -6,6 +6,7 @@
 <title>會員登入</title>
 </head>
 <body>
+	<h3>${AppName}的天地</h3>
 	<form action="LoginMember.do">
 		<table>
 			<thead>

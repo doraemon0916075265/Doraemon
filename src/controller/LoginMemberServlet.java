@@ -57,7 +57,7 @@ public class LoginMemberServlet extends HttpServlet {
 		} else {
 			HttpSession session = request.getSession();
 			session.setAttribute("user", bean);
-
+			
 			String path = request.getContextPath();
 			response.sendRedirect(path + "/login/LoginIndex.jsp");
 		}
