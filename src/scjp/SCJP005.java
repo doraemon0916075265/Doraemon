@@ -16,7 +16,6 @@ public class SCJP005 {
 		array3D[0][1] = array;
 		array3D[1][0] = array;
 		array3D[1][1] = array;
-
 	}
 
 }
