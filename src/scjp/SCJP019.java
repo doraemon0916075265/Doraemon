@@ -2,8 +2,8 @@ package scjp;
 
 public class SCJP019 {
 
-	public static void main(String[] args) {
-
+	public void typeExclamation() {
+		System.out.println("!");
 	}
 
 }
