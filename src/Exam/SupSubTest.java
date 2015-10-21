@@ -6,7 +6,7 @@ public class SupSubTest {
 
 	public static void main(String[] args) {
 		GlobalValue USE = new GlobalValue();
-		System.out.println("NOTE：繼承可以繼承父ˋ類別的屬性和方法，其中屬性可以更改屬性值");
+		System.out.println("NOTE：繼承可以繼承父類別的屬性和方法，其中屬性可以更改屬性值");
 		USE.Demarcation();
 
 		SuperClassDemo father = new SuperClassDemo();
