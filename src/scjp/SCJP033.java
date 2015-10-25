@@ -20,7 +20,6 @@ public class SCJP033 {
 				j++;
 			} while (j < y);
 			System.out.println("----");
-
 		}
 
 	}
