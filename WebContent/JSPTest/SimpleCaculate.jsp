@@ -11,7 +11,7 @@
 	<%
 		out.print("haha<br>");
 		out.print(22 + 33 + +3 + 5 + "<br>");
-		out.print("<br>" + 22 + 33 + +3 + 5 + "<br>");
+		out.print(22 + 33 + "<br>" + 22 + 33 + +3 + 5 + "<br>");
 		out.print("a" + 22 + 33 + +3 + 5 + "<br>");
 	%>
 
@@ -73,6 +73,20 @@
 		}
 		}
 	%>
+
+	<hr>
+
+	<%
+		int wordsize = 5;
+		int k;
+		for (k = 1; k < wordsize; k++) {
+	%>
+	<font style="color:blue;font-size:<%=k%>em">Tower of Saviors</font>
+	<br>
+	<%
+		}
+	%>
+	
 
 </body>
 </html>

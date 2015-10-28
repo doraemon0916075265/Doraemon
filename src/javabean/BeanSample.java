@@ -4,9 +4,6 @@ public class BeanSample {
 
 	private String username;
 
-	public BeanSample() {
-	}
-
 	public String getUsername() {
 		return username;
 	}

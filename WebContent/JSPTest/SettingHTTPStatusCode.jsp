@@ -3,14 +3,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>JavaBean 的使用範例</title>
+<title>Setting HTTP Status Code</title>
 </head>
 <body>
-	<jsp:useBean id="myBean" scope="page" class="javabean.BeanSample" />
-	<jsp:setProperty property="username" name="myBean" value="文文" />
-
-	<p>
-		名字：<jsp:getProperty property="username" name="myBean" /></p>
-
+	<%
+		//設置錯誤代碼，並說明原因
+		response.sendError(404, "Need authentication!!!");
+	%>
 </body>
 </html>

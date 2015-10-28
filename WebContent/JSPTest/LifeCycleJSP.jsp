@@ -28,9 +28,9 @@
 		String content03 = "銷毀次數：" + destroyVar;
 	%>
 
-	<h1><%=content01%></h1>
-	<h1><%=content02%></h1>
-	<h1><%=content03%></h1>
+	<h3><%=content01%></h3>
+	<h3><%=content02%></h3>
+	<h3><%=content03%></h3>
 
 
 </body>
