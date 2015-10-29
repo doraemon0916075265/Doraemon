@@ -3,13 +3,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MainJSP</title>
+<title>取得表單 - Text</title>
 </head>
 <body>
-	<h2>MainJSP</h2>
-	<%-- 	<jsp:forward page="GetRequestInfoJSP.jsp"/> --%>
-	<jsp:include page="DateJSP.jsp" flush="true" />
-	<jsp:include page="LifeCycleJSP.jsp" flush="true" />
-
+	<center>
+		<h1>取得表單 - Text</h1>
+		<ul>
+			<li><p>
+					<b>First Name:</b>
+					<%=request.getParameter("first_name")%>
+				</p></li>
+			<li><p>
+					<b>Last Name:</b>
+					<%=request.getParameter("last_name")%>
+				</p></li>
+		</ul>
+	</center>
 </body>
 </html>

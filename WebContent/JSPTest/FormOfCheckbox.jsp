@@ -3,13 +3,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MainJSP</title>
+<title>勾選表單</title>
 </head>
 <body>
-	<h2>MainJSP</h2>
-	<%-- 	<jsp:forward page="GetRequestInfoJSP.jsp"/> --%>
-	<jsp:include page="DateJSP.jsp" flush="true" />
-	<jsp:include page="LifeCycleJSP.jsp" flush="true" />
-
+	<form action="GetTCheckboxParameter.jsp" method="POST" target="_blank">
+		<input type="checkbox" name="apple" />蘋果 <input type="checkbox" name="banana" />香蕉<input type="checkbox" name="orange" />橘子<input type="submit" value="送出" />
+	</form>
 </body>
 </html>

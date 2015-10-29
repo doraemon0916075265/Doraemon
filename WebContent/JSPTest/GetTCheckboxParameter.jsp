@@ -3,19 +3,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Using GET Method to Read Form Data</title>
+<title>取得表單 - Checkbox</title>
 </head>
 <body>
 	<center>
-		<h1>Using GET Method to Read Form Data</h1>
+		<h1>取得表單 - Checkbox</h1>
 		<ul>
 			<li><p>
-					<b>First Name:</b>
-					<%=request.getParameter("first_name")%>
+					<b> 蘋果 Flag : </b>
+					<%=request.getParameter("apple")%>
 				</p></li>
 			<li><p>
-					<b>Last Name:</b>
-					<%=request.getParameter("last_name")%>
+					<b> 香蕉 Flag: </b>
+					<%=request.getParameter("banana")%>
+				</p></li>
+			<li><p>
+					<b> 橘子 Flag: </b>
+					<%=request.getParameter("orange")%>
 				</p></li>
 		</ul>
 	</center>

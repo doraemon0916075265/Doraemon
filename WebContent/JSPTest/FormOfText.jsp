@@ -3,13 +3,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MainJSP</title>
+<title>文字表單</title>
 </head>
 <body>
-	<h2>MainJSP</h2>
-	<%-- 	<jsp:forward page="GetRequestInfoJSP.jsp"/> --%>
-	<jsp:include page="DateJSP.jsp" flush="true" />
-	<jsp:include page="LifeCycleJSP.jsp" flush="true" />
-
+	<center>
+		<h1>文字表單</h1>
+		<form action="GetTextParameter.jsp" method="GET">
+			First Name: <input type="text" name="first_name"><br> <br>Last Name: <input type="text" name="last_name" /><br> <br> <input type="submit" value="送出" />
+		</form>
+	</center>
 </body>
 </html>
