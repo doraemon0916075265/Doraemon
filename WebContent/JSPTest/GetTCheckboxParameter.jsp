@@ -12,6 +12,13 @@
 			<li><p>
 					<b> 蘋果 Flag : </b>
 					<%=request.getParameter("apple")%>
+
+					<%
+						if (request.getParameter("apple") == null) {
+							System.out.print("ccca");
+						}
+					%>
+
 				</p></li>
 			<li><p>
 					<b> 香蕉 Flag: </b>

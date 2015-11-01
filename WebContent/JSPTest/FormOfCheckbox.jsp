@@ -6,7 +6,8 @@
 <title>勾選表單</title>
 </head>
 <body>
-	<form action="GetTCheckboxParameter.jsp" method="POST" target="_blank">
+	<!-- <form action="GetTCheckboxParameter.jsp" method="POST" target="_blank"> -->
+	<form action="GetAllParameterEnumeration.jsp" method="POST" target="_blank">
 		<input type="checkbox" name="apple" />蘋果 <input type="checkbox" name="banana" />香蕉<input type="checkbox" name="orange" />橘子<input type="submit" value="送出" />
 	</form>
 </body>
