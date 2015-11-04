@@ -32,9 +32,9 @@ public class ProductDAOJDBC {
 		try {
 			// 找驅動程式
 			Class.forName(DRIVER);
-			// System.out.println("driver成功");
+			 System.out.println("driver成功");
 		} catch (ClassNotFoundException e) {
-			// System.out.println("driver失敗");
+			 System.out.println("driver失敗");
 			e.printStackTrace();
 		}
 
