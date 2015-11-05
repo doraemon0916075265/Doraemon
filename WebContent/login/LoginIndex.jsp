@@ -13,7 +13,6 @@
 <body>
 	<h3>${AppName}的天地</h3>
 	<h3>歡迎光臨&nbsp;${user.custid}</h3>
-
 	<h3>
 		<a href="<%=request.getContextPath()%>/login/loginMember.jsp">會員登入</a>
 	</h3>
